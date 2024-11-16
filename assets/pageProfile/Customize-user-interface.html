@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Five-Million | Customize-user-interface </title>
+    <!-- ===========> Favicon Logo <=========== -->
+    <link rel="icon" href="../images/logo-five-million.png" type="image/x-icon">
+    <!-- ===========> Include custom css file <=========== -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="bluer-profile"></div>
+    <main class="background-img">
+        <svg class="left" xmlns="http://www.w3.org/2000/svg" width="375" height="745" viewBox="0 0 375 745" fill="none">
+            <g filter="url(#filter0_f_345_2061)">
+                <ellipse cx="374.5" cy="372.5" rx="74.5" ry="72.5" fill="#FCD535" />
+            </g>
+            <defs>
+                <filter id="filter0_f_345_2061" x="0" y="0" width="749" height="745" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_345_2061" />
+                </filter>
+            </defs>
+        </svg>
+        <svg class="right" xmlns="http://www.w3.org/2000/svg" width="449" height="445" viewBox="0 0 449 445"
+            fill="none">
+            <g filter="url(#filter0_f_345_2060)">
+                <ellipse cx="74.5" cy="72.5" rx="74.5" ry="72.5" fill="#FCD535" />
+            </g>
+            <defs>
+                <filter id="filter0_f_345_2060" x="-300" y="-300" width="749" height="745" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_345_2060" />
+                </filter>
+            </defs>
+        </svg>
+        <div class="profile-content">
+            <!-- =========>> notifications-container <<=========== -->
+            <section class="notifications-container settinges" style="margin: 0 auto; position: relative; top: 30px;">
+                <div class="strategy-container">
+                    <a href="../../index.html">
+                        <button class="community-button">
+                            <span class="community-text">العودة للمجتمع</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                                fill="none">
+                                <path
+                                    d="M7.99715 18.8333L7.78829 15.9093C7.676 14.3372 8.92107 13 10.4972 13C12.0732 13 13.3183 14.3372 13.206 15.9093L12.9972 18.8333"
+                                    stroke="#FCD535" stroke-width="1.25" />
+                                <path
+                                    d="M2.45689 11.5112C2.1627 9.59679 2.01561 8.63965 2.37754 7.79111C2.73945 6.94256 3.54242 6.36198 5.14835 5.20084L6.34822 4.33329C8.34597 2.88885 9.34483 2.16663 10.4974 2.16663C11.6499 2.16663 12.6488 2.88885 14.6466 4.33329L15.8464 5.20084C17.4524 6.36198 18.2553 6.94256 18.6172 7.79111C18.9792 8.63965 18.8321 9.59679 18.5379 11.5112L18.2871 13.1436C17.87 15.8574 17.6615 17.2143 16.6882 18.0238C15.715 18.8333 14.2921 18.8333 11.4464 18.8333H9.54841C6.70268 18.8333 5.27982 18.8333 4.30656 18.0238C3.3333 17.2143 3.12479 15.8574 2.70775 13.1436L2.45689 11.5112Z"
+                                    stroke="#FCD535" stroke-width="1.25" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </a>
+                </div>
+                <div class="notifications-wrapper" style="margin-left: 17px;">
+                    <a href="#">
+                        <div class="messages-item">
+                            <div class="new-messages">
+                                <span class="new-count">2</span>
+                                <span class="new-count">جديدة</span>
+                            </div>
+                            <svg class="messages-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="23"
+                                viewBox="0 0 23 23" fill="none">
+                                <path d="M5.13281 15.2608V13.3804" stroke="#37D281" stroke-width="1.22229"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M11.7148 19.9619V18.0814" stroke="#37D281" stroke-width="1.22229"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M18.2969 12.4401V10.5597" stroke="#E85858" stroke-width="1.22229"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M5.13281 7.73885V5.8584" stroke="#37D281" stroke-width="1.22229"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M11.7148 12.4401V10.5597" stroke="#37D281" stroke-width="1.22229"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M18.2969 4.91841V3.03796" stroke="#E85858" stroke-width="1.22229"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M7.0148 8.30315V12.8162C7.0148 13.1278 6.76223 13.3804 6.45067 13.3804H3.81804C3.50648 13.3804 3.25391 13.1278 3.25391 12.8162V8.30315C3.25391 7.99159 3.50648 7.73901 3.81804 7.73901H6.45067C6.76223 7.73901 7.0148 7.99159 7.0148 8.30315Z"
+                                    stroke="#37D281" stroke-width="1.22229" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M13.5968 13.0042V17.5173C13.5968 17.8289 13.3443 18.0814 13.0327 18.0814H10.4001C10.0885 18.0814 9.83594 17.8289 9.83594 17.5173V13.0042C9.83594 12.6926 10.0885 12.4401 10.4001 12.4401H13.0327C13.3443 12.4401 13.5968 12.6926 13.5968 13.0042Z"
+                                    stroke="#37D281" stroke-width="1.22229" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M20.1789 5.48247V9.99555C20.1789 10.3071 19.9263 10.5597 19.6147 10.5597H16.9821C16.6705 10.5597 16.418 10.3071 16.418 9.99555V5.48247C16.418 5.17091 16.6705 4.91833 16.9821 4.91833H19.6147C19.9263 4.91833 20.1789 5.17091 20.1789 5.48247Z"
+                                    stroke="#E85858" stroke-width="1.22229" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="messages-item menu">
+                            <div class="new-messages">
+                                <span class="new-count">2</span>
+                                <span class="new-count">جديدة</span>
+                            </div>
+                            <svg class="messages-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="23"
+                                viewBox="0 0 23 23" fill="none">
+                                <path d="M5.13281 15.2608V13.3804" stroke="#37D281" stroke-width="1.22229"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M11.7148 19.9619V18.0814" stroke="#37D281" stroke-width="1.22229"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M18.2969 12.4401V10.5597" stroke="#E85858" stroke-width="1.22229"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M5.13281 7.73885V5.8584" stroke="#37D281" stroke-width="1.22229"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M11.7148 12.4401V10.5597" stroke="#37D281" stroke-width="1.22229"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M18.2969 4.91841V3.03796" stroke="#E85858" stroke-width="1.22229"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M7.0148 8.30315V12.8162C7.0148 13.1278 6.76223 13.3804 6.45067 13.3804H3.81804C3.50648 13.3804 3.25391 13.1278 3.25391 12.8162V8.30315C3.25391 7.99159 3.50648 7.73901 3.81804 7.73901H6.45067C6.76223 7.73901 7.0148 7.99159 7.0148 8.30315Z"
+                                    stroke="#37D281" stroke-width="1.22229" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M13.5968 13.0042V17.5173C13.5968 17.8289 13.3443 18.0814 13.0327 18.0814H10.4001C10.0885 18.0814 9.83594 17.8289 9.83594 17.5173V13.0042C9.83594 12.6926 10.0885 12.4401 10.4001 12.4401H13.0327C13.3443 12.4401 13.5968 12.6926 13.5968 13.0042Z"
+                                    stroke="#37D281" stroke-width="1.22229" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M20.1789 5.48247V9.99555C20.1789 10.3071 19.9263 10.5597 19.6147 10.5597H16.9821C16.6705 10.5597 16.418 10.3071 16.418 9.99555V5.48247C16.418 5.17091 16.6705 4.91833 16.9821 4.91833H19.6147C19.9263 4.91833 20.1789 5.17091 20.1789 5.48247Z"
+                                    stroke="#E85858" stroke-width="1.22229" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="#" class="notifications-popup-cont">
+                        <div class="notification-item">
+                            <div class="new-notifications">
+                                <span class="new-count">5</span>
+                                <span class="new-count">جديدة</span>
+                            </div>
+                            <p class="notification-text">الاشعارات</p>
+                            <svg class="notification-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="21"
+                                viewBox="0 0 20 21" fill="none">
+                                <path
+                                    d="M17.5013 10.5V10.9167C17.5013 14.6486 17.5013 16.5146 16.342 17.674C15.1826 18.8333 13.3166 18.8333 9.58464 18.8333C5.85269 18.8333 3.98671 18.8333 2.82734 17.674C1.66797 16.5146 1.66797 14.6486 1.66797 10.9167C1.66797 7.18472 1.66797 5.31874 2.82734 4.15937C3.98671 3 5.85269 3 9.58464 3H10.0013"
+                                    stroke="white" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M18.3333 5.08329C18.3333 6.69413 17.0275 7.99996 15.4167 7.99996C13.8058 7.99996 12.5 6.69413 12.5 5.08329C12.5 3.47246 13.8058 2.16663 15.4167 2.16663C17.0275 2.16663 18.3333 3.47246 18.3333 5.08329Z"
+                                    stroke="white" stroke-width="1.25" />
+                                <path
+                                    d="M17.5013 12.1666H13.3966C12.6948 12.1666 12.1435 12.753 11.8342 13.3726C11.4982 14.0459 10.8254 14.6666 9.58464 14.6666C8.34389 14.6666 7.67108 14.0459 7.33509 13.3726C7.02582 12.753 6.47444 12.1666 5.77269 12.1666H1.66797"
+                                    stroke="white" stroke-width="1.25" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="slider-notification-mnue">
+                    <div class="notification-mnue">
+                        <img src="..//images/notification-icon.svg" alt="" class="notification-icon">
+                    </div>
+                    <div class="slider-mnue">
+                    </div>
+                </div>
+            </section>
+            <!-- ============>> crypto-recommendations-recommendations<<============ -->
+            <section class="crypto-recommendations-recommendations" style="top: 3%;">
+                <header class="header-recommendations">
+                    <h2 class="header-title-recommendations">توصيات الكريبتو</h2>
+                    <div class="header-content-recommendations">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                            <path d="M12.6667 1.16663L1 12.8333M1 1.16663L12.6667 12.8333" stroke="#C62E2E"
+                                stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </header>
+
+                <main class="recommendations-list-recommendations">
+                    <article class="recommendation-item-recommendations active">
+                        <div class="user-info-recommendations">
+                            <img src="..//images/imge-admin-recommendations.svg" alt="">
+                            <div class="user-details-recommendations">
+                                <span class="user-name-recommendations">Jack7</span>
+                                <time class="timestamp-recommendations">11:11 AM</time>
+                            </div>
+                            <img src="..//images/golden-bitcoin.svg" alt="" class="user-avatar-recommendations">
+                        </div>
+                        <p class="recommendation-content-recommendations">
+                            إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد،
+                            النص لن
+                            يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث
+                            يحتاج
+                            العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
+                        </p>
+                    </article>
+                    <article class="recommendation-item-recommendations">
+                        <div class="user-info-recommendations">
+                            <img src="..//images/imge-admin-recommendations.svg" alt="">
+                            <div class="user-details-recommendations">
+                                <span class="user-name-recommendations">Jack7</span>
+                                <time class="timestamp-recommendations">11:11 AM</time>
+                            </div>
+                            <img src="..//images/golden-bitcoin.svg" alt="" class="user-avatar-recommendations">
+                        </div>
+                        <img src="..//images/Indicators-1.png" alt="Crypto recommendation visual"
+                            class="recommendation-image-recommendations">
+                    </article>
+                    <article class="recommendation-item-recommendations">
+                        <div class="user-info-recommendations">
+                            <img src="..//images/imge-admin-recommendations.svg" alt="">
+                            <div class="user-details-recommendations">
+                                <span class="user-name-recommendations">Jack7</span>
+                                <time class="timestamp-recommendations">11:11 AM</time>
+                            </div>
+                            <img src="..//images/golden-bitcoin.svg" alt="" class="user-avatar-recommendations">
+                        </div>
+                        <img src="..//images/Indicators-2.png" alt="Crypto recommendation visual"
+                            class="recommendation-image-recommendations">
+                    </article>
+                    <article class="recommendation-item-recommendations">
+                        <div class="user-info-recommendations">
+                            <img src="..//images/imge-admin-recommendations.svg" alt="">
+                            <div class="user-details-recommendations">
+                                <span class="user-name-recommendations">Jack7</span>
+                                <time class="timestamp-recommendations">11:11 AM</time>
+                            </div>
+                            <img src="..//images/golden-bitcoin.svg" alt="" class="user-avatar-recommendations">
+                        </div>
+                        <img src="..//images/Indicators-2.png" alt="Crypto recommendation visual"
+                            class="recommendation-image-recommendations">
+                    </article>
+                    <article class="recommendation-item-recommendations">
+                        <div class="user-info-recommendations">
+                            <img src="..//images/imge-admin-recommendations.svg" alt="">
+                            <div class="user-details-recommendations">
+                                <span class="user-name-recommendations">Jack7</span>
+                                <time class="timestamp-recommendations">11:11 AM</time>
+                            </div>
+                            <img src="..//images/golden-bitcoin.svg" alt="" class="user-avatar-recommendations">
+                        </div>
+                        <img src="..//images/Indicators-2.png" alt="Crypto recommendation visual"
+                            class="recommendation-image-recommendations">
+                    </article>
+                </main>
+
+            </section>
+        </div>
+        <!-- ============>> container-wrapper <<============ -->
+        <section class="profile-section">
+            <!-- ============>> slider-settinges <<============ -->
+            <nav class="settings-sidebar">
+                <div class="settings-container">
+                    <div class="settings-content">
+                        <ul class="settings-list">
+                            <li class="settings-item">
+                                <a href="profile-stinges.html" tabindex="0">البيانات الشخصى</a>
+                            </li>
+                            <li class="settings-item ">
+                                <a href="Mystats.html" tabindex="0">احصائياتي</a>
+                            </li>
+                            <li class="settings-item active">
+                                <div class="active-popup">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                        <circle cx="4" cy="4" r="3.5" fill="#FCD535" />
+                                    </svg>
+                                </div>
+                                <a href="Customize-user-interface.html" tabindex="0">تخصيص واجهة المستخدم</a>
+                            </li>
+                            <li class="settings-item">
+                                <a href="payment-methods.html" tabindex="0">وسائل الدفع</a>
+                            </li>
+                            <li class="settings-item">
+                                <a href="#complaints" tabindex="0">شكاوي أو مشكلات</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="settings-content menu">
+                <ul class="settings-list">
+                    <li class="settings-item">
+                        <a href="profile-stinges.html" tabindex="0">البيانات الشخصى</a>
+                    </li>
+                    <li class="settings-item ">
+                        <a href="Mystats.html" tabindex="0">احصائياتي</a>
+                    </li>
+                    <li class="settings-item active">
+                        <div class="active-popup">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                <circle cx="4" cy="4" r="3.5" fill="#FCD535" />
+                            </svg>
+                        </div>
+                        <a href="Customize-user-interface.html" tabindex="0">تخصيص واجهة المستخدم</a>
+                    </li>
+                    <li class="settings-item">
+                        <a href="payment-methods.html" tabindex="0">وسائل الدفع</a>
+                    </li>
+                    <li class="settings-item">
+                        <a href="#complaints" tabindex="0">شكاوي أو مشكلات</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- ============>> course-count-stats <<============ -->
+            <div class="container-sttinges-portflioe">
+                <div class="typing-text">
+                    <p> تخصيص واجهة المستخدم</p>
+                    <button class="action-button menu" style="background: #35373C;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                            <path d="M9.99219 10.5H9.99969" stroke="white" stroke-width="2.08333" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M9.98438 15.5H9.99188" stroke="white" stroke-width="2.08333" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M10 5.5H10.0075" stroke="white" stroke-width="2.08333" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+                <section class="profile-container-Customize">
+                    <header class="profile-header-Customize">
+                        <div class="user-info-Customize">
+                            <div class="user-avatar-Customize">
+                                <img src="../images/img-user-portflieo.png" alt="">
+                            </div>
+                            <div class="user-details-Customize">
+                                <h2 class="username-Customize">ACR7</h2>
+                                <p class="user-email-Customize">ahmed21M@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="avatar-container-Customize">
+                            <button class="change-photo-btn-Customize">تغيير الصورة</button>
+                            <div class="avatar-wrapper-Customize">
+                                <span class="avatar-text-Customize">avatar</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                                    <path d="M5.68707 11.4068C4.95349 11.828 3.03007 12.6881 4.20156 13.7643C4.77383 14.29 5.41118 14.666 6.21249 14.666H10.7849C11.5862 14.666 12.2236 14.29 12.7958 13.7643C13.9673 12.6881 12.0439 11.828 11.3103 11.4068C9.5901 10.4191 7.4073 10.4191 5.68707 11.4068Z" stroke="#37D281" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.8346 6.66732C10.8346 7.95598 9.78997 9.00065 8.5013 9.00065C7.21264 9.00065 6.16797 7.95598 6.16797 6.66732C6.16797 5.37865 7.21264 4.33398 8.5013 4.33398C9.78997 4.33398 10.8346 5.37865 10.8346 6.66732Z" stroke="#37D281"/>
+                                    <path d="M2.40136 10.6673C2.03537 9.84492 1.83203 8.93465 1.83203 7.97705C1.83203 4.30818 4.8168 1.33398 8.4987 1.33398C12.1806 1.33398 15.1654 4.30818 15.1654 7.97705C15.1654 8.93465 14.962 9.84492 14.596 10.6673" stroke="#37D281" stroke-linecap="round"/>
+                                  </svg>
+                            </div>
+                        </div>
+                    </header>
+
+                    <section class="font-appearance-section-Customize">
+                        <h3 class="section-title-Customize">تعيين مظهر الخط</h3>
+
+                        <div class="slider-container-dot">
+                            <div class="slider-line"></div>
+                            <div class="slider-dot" data-number="10">
+                                <span class="dot-number">10</span>
+                                <span class="tooltip">10</span>
+                            </div>
+                            <div class="slider-dot slider-dot-active" data-number="11">
+                                <span class="dot-number">11</span>
+                                <span class="tooltip">11</span>
+                            </div>
+                            <div class="slider-dot" data-number="12">
+                                <span class="dot-number">12</span>
+                                <span class="tooltip">12</span>
+                            </div>
+                            <div class="slider-dot" data-number="13">
+                                <span class="dot-number">13</span>
+                                <span class="tooltip">13</span>
+                            </div>
+                            <div class="slider-dot" data-number="14">
+                                <span class="dot-number">14</span>
+                                <span class="tooltip">14</span>
+                            </div>
+                        </div>
+
+                        <div class="content-wrapper-Customize">
+                            <article class="message-container-Customize">
+                                <div class="message-content-Customize">
+                                    <header class="message-header-Customize">
+                                        <div class="message-meta-Customize">
+                                            <time class="message-time-Customize">10:38 AM</time>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="1" height="16" viewBox="0 0 1 16" fill="none">
+                                                <path opacity="0.2" d="M1 0.5C1 0.223858 0.776142 0 0.5 0C0.223858 0 0 0.223858 0 0.5H1ZM0 0.5V15.5H1V0.5H0Z" fill="white"/>
+                                              </svg>
+                                            <h4 class="message-title-Customize">Five Million ❤🔥</h4>
+                                        </div>
+                                        <div class="user-avatar-small-Customize">
+                                            <div class="user-avatar-inner">
+                                                <img loading="lazy"
+                                                    src="../images/logo-five-million.png"
+                                                    class="user-avatar-img-Customize" alt="User avatar" />
+                                            </div>
+                                        </div>
+                                    </header>
+                                    <p class="message-text-Customize">
+                                        إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد
+                                        الفقرات
+                                        كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد
+                                        لمصممي
+                                        المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة
+                                        حقيقية لتصميم الموقع.
+                                    </p>
+                                    <div class="message-actions-Customize">
+                                        <button class="action-btn-Customize">
+                                            <span class="action-icon">❤</span>
+                                            <span>333</span>
+                                        </button>
+                                        <button class="action-btn-Customize">
+                                            <span class="action-icon">🔥</span>
+                                            <span>1200</span>
+                                        </button>
+                                        <button class="share-btn-Customize">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
+                                                <path d="M5.9349 2.25195V8.91862M9.26823 5.58529H2.60156" stroke="#FCD535" stroke-width="0.625" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </section>
+  
+
+        <!-- ============>> notifications-container-popup <<============ -->
+        <section class="notifications-container-popup">
+            <header class="notifications-header-popup">
+                <div class="notifications-info-popup">
+                    <h2 class="notifications-title-popup">الاشعارات</h2>
+                    <div class="new-notifications-popup">
+                        <span>5</span>
+                        <span>جديدة</span>
+                    </div>
+                </div>
+                <div class="notification-icon-popup">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <path d="M12.6667 1.16663L1 12.8333M1 1.16663L12.6667 12.8333" stroke="#C62E2E"
+                            stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </header>
+            <main class="notifications-list-popup">
+                <article class="notification-item-popup active">
+                    <img src="..//images/image-1.svg" alt="User avatar" class="notification-avatar" />
+                    <div class="notification-content-popup">
+                        <p class="notification-text-popup">إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
+                            العربى
+                            زيادة
+                            عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى ..
+                        </p>
+                    </div>
+                    <span class="notification-status-popup" aria-hidden="true"></span>
+                </article>
+                <article class="notification-item-popup">
+                    <img src="..//images/image-2.svg" alt="User avatar" class="notification-avatar" />
+                    <div class="notification-content-popup">
+                        <p class="notification-text-popup">إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
+                            العربى
+                            زيادة
+                            عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى ..
+                        </p>
+                    </div>
+                    <span class="notification-status-popup" aria-hidden="true"></span>
+                </article>
+                <article class="notification-item-popup">
+                    <img src="..//images/image-3.svg" alt="User avatar" class="notification-avatar" />
+                    <div class="notification-content-popup">
+                        <p class="notification-text-popup">إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
+                            العربى
+                            زيادة
+                            عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى ..
+                        </p>
+                    </div>
+                    <span class="notification-status-popup" aria-hidden="true"></span>
+                </article>
+                <article class="notification-item-popup">
+                    <img src="..//images/image-4.svg" alt="User avatar" class="notification-avatar" />
+                    <div class="notification-content-popup">
+                        <p class="notification-text-popup">إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
+                            العربى
+                            زيادة
+                            عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى ..
+                        </p>
+                    </div>
+                    <span class="notification-status-popup" aria-hidden="true"></span>
+                </article>
+                <article class="notification-item-popup">
+                    <img src="..//images/image-5.svg" alt="User avatar" class="notification-avatar" />
+                    <div class="notification-content-popup">
+                        <p class="notification-text-popup">إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
+                            العربى
+                            زيادة
+                            عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى ..
+                        </p>
+                    </div>
+                    <span class="notification-status-popup" aria-hidden="true"></span>
+                </article>
+                <article class="notification-item-popup">
+                    <img src="..//images/image-6.svg" alt="User avatar" class="notification-avatar" />
+                    <div class="notification-content-popup">
+                        <p class="notification-text-popup">إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
+                            العربى
+                            زيادة
+                            عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى ..
+                        </p>
+                    </div>
+                </article>
+                <article class="notification-item-popup">
+                    <img src="..//images/image-6.svg" alt="User avatar" class="notification-avatar" />
+                    <div class="notification-content-popup">
+                        <p class="notification-text-popup">إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
+                            العربى
+                            زيادة
+                            عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى ..
+                        </p>
+                    </div>
+                </article>
+                <article class="notification-item-popup">
+                    <img src="..//images/image-6.svg" alt="User avatar" class="notification-avatar" />
+                    <div class="notification-content-popup">
+                        <p class="notification-text-popup">إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
+                            العربى
+                            زيادة
+                            عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى ..
+                        </p>
+                    </div>
+                </article>
+            </main>
+        </section>
+    </main>
+
+
+    <section class="profile-container-avatar">
+        <div class="profile-content-avatar">
+            <div class="sidebar-column-avatar">
+                <aside class="sidebar-avatar">
+                    <div class="avatar-container-avatar">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/00dbea99daf05a0ffba9400e1774ba2e24f83a958762189f41e30bfb67460e8b?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                            class="avatar-image-avatar" alt="User avatar" />
+                    </div>
+                    <div class="status-indicator-avatar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="26" viewBox="0 0 27 26" fill="none">
+                            <path d="M5.91797 15.166L9.70964 18.9577L21.0846 7.04102" stroke="black" stroke-width="1.625" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                    </div>
+                </aside>
+            </div>
+            <div class="main-column-avatar">
+                <div class="emoji-grid-avatar">
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/888aad4412d9a1dda414aa0c056f3c3ec28ae5bc1801917661991073ef95fe85?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1548e99a7fd2f9abb611cbae20ba74156cddbaecc785a05999880dc23d0441ee?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/19e3d85e3d41970dc1552aea88a91880a97c3d1875a0677ef4c5330a5b628649?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/96864ac8bf7971d1eba589b91c75bbd46a8973677830eb7a75eac80b8d698bd0?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/ddc142bd0943b1b5114d519aa61b212d489be0c01acbc20b99770738a8625e1e?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/eea22d3f237c9f9ee879dbf3fcc4caa74a55126af7436095c8ac2bcd0572604e?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/3711108e38b4e2e55e76a9c70f26d2b88d887c5c0c96408299c9305717c335ba?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/5b4cf40dcc39b05ffd7440e85e67efa72d478e9b1a117ed0c87b2f3b4231eab5?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/e53067d4f3f27d8301fd09c459cd0452971be6f976c6a7e93ffc672b96d09de3?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/cfd4da3fea3dc5ab78b902421946f1b98e3a7030001dcaf5215740ffb3b473a2?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/021cec601aab902eef644899a42aff3e4bbfcee396d28f60b8342b42b863c0c3?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/5da72d6a4432dd33de056ff8a7753b5a2da131425b6e74ce938ed580c4dc07ce?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1ae2b1548e2590696ca3ee5fef49cac7ef4b4c52bc30be197f899c39b2f9eb2c?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/fcabf33be8c5c619e965411580ed638f5b9e9a84d9cd2448256aaa95132bb06a?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1a60c299dc344f9d4ffa8f6ac987c535078389dd64cf84a5a9ed7a5dade2c4b1?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/09b994f95c81e255a3a25454afc80cf186bbfe9fdd7fe6ebab6517d8c580023b?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/9c1edd447e5faa5e156657100d6530b4fc84b49c13d8d584f2f80a68fae17244?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/39f400a5b8245f1196907fa8a3b9f2acc6fefaf8eb5d08e40d3afdcdb65ed7db?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/9c00641165de57182de72d15395ec76c41736218ab554c781bf5b38f2ffa0c5a?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/4635719879b18e16986df262bce935c0a1657561b8086ce9f6bdb9dba38a4070?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/b4702c1340dd19a790a464162ec2ad4db14519a877484475b9987d7518048928?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/3062119e8c70b0398809d9f1b8b2286bd85efcf317d94aeabbba4605b02c771f?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/051226d3bc842c6db3a96742c2f85784252cbd238b311c3f6433ff73972c79ef?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a4be4881066e48a853bb414e82548ce918fdb92af4787314ba6c8ddae407528c?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/f78d99440891096f2d22a2f42b542201c1edb806a279be1de10eb563c761e0e4?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/cc1e190572ced38a6650c8319b85149b4fa5b078b09d8f9fe7fa4eebe0ec5f69?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/6c847982eb26a9094af3f98c08c5987bedd843c3638433d08042728b7f08d58e?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/432400691a6632f7022fb829d6118cedb16fa715173749aec6c907626c5740cc?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/6585109127433834fe9edd08ae1fb6793c089a3d17a326f3010d78c6bca75067?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9c5cbde1442403ea067ec8b9c3388a7fb715d3764abd5306cca4d9f653ddf2b?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/727a08d5f04189961acf791cb112708929961ac7170697720fe2a8bce9d10ce7?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/32556b2374fb108b26b3721325d86cca106219d51e36eb4ad5b7ae2239a76dca?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/4ce90814bfa27c9f548b4ae5e38d6cc9e907b8f5c07eb756cdeb2951b8d692f7?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/bf4fe59569b4641f6c4f8420490c324fa82965e0608382d5ee6336ae0dbe5c3f?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/8a20bbee2cbe17fc04fd942e983942c2903414cd0c86ba9c90d38333234f3244?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/006e5dc87f76e371c6ec20dbf944b10ac9ed9fc6464f58e40a166921f94c8fd6?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/38d0cf9bf4b3b0eaac6ec28ff3f84111f57cf474d1e0b20c0d38c42d809c53c9?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/242bfb0fb622f69ee8a61e26edbbfa71c712aa043f382bb9de07b170da9d8d1d?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/58ff573959c2158166351baeb027698f8998d86bbddcccde57a0ae4135b634b8?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/0ad00a997eee1f4b18a704528fbb76b20712e73e6a922561ece2617ed7530be3?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/41478f41e1f23578ebfe912a7b1d963b1db10b14bb5f45b97aa039587ff5ae83?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/169f7b1d018560c3cc5313d162b237ca75abdf7f9c845885942b59a56a04e9a8?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/cddfb44a70f358f33747a38a707febcc96fec2488fd9835bf5c89f0b4f0cab66?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/8f2fe0a85501529eeba330791bdd3a168e1bde1e5919f6da3a9e0ae08a7452ab?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2a4128a3b5a163c1d229464a00eee97ca928aad28d811b5962dc48db5455fca2?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/85f63bb1092ff1795ea67845f02825070688da79d4228ecb330cfadc330562d8?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/146857d90e32b0f1f794d77ffa1f500b226b2126b56bf7644a787e4373867abf?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/dc1d6a18238f0768f0ccdc60a7e6160fc61d9177d91110ec8bb9df8909d9ef3c?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/022b0dd7a19e1aa9457b01dae1c6d01d167ca28f4131a0e5e875c22a3991c239?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/e41142a6aee24263bb52abbb7c7077e9dadab4dd9152d8aa0c8c52a3129c081f?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/dd121126fcf094054ae21a655f4395923339e45b879f5ddfb44d0299d2c3e761?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1c2a35a163798708cda28fb5a9758dc1d8e804801d7fa38b006965b21255743a?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/911380ef881c6b14320eacbe0a175566b82303aa7675cdb28fd8c9da077653b2?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a912ebdba6bb7d74947752b951d53d6638372a06a67244f53916426840d78b60?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/6e617c6a14f62344f990cf1c98e94887714ad1bcdd0d173152c9b6f63c2ba35e?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/9aa2860be5cc10c95c49691af545c471013e31395bf850009e566cb2ecc0990b?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/4b45e3329c87b86805974fd2b0d8b12aa8f30c916b5c033504dcf5cc07b91b76?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/0cb342e1a2a11c0b1bf8f05aea324e464fcf989e60ddacf1ebd4123c9f099e92?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/d350631f5754d96a688a9cc7d19d97eaacb2eed878322cf5053d1cafd272e78e?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/b902e0dde2a3552886f25c01a11a2231f589fe07bcc1928fd2c065c1436f1910?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/879247ca515fdf66c0e3eed0ba78a3a1d02a1f44a6c80a3eccfa255fc774c84b?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1b59af322d4179ce68fa5b0c908fd9bc5f9cdc5b640528a5d69d2772740a3a57?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/3190d3ff7d4d39fe0dba0973185c43742ba2ad98dbfb61567ecabf3b66cd59ed?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d1464469549dff7f1ec6cffeceb29712a665ce52585a81d1033be4384a10e67?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/517a4c2cd2b1c99dbc28e5d9c6e3f529534a713b89c7c4a71cfac4db22afb179?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/517a4c2cd2b1c99dbc28e5d9c6e3f529534a713b89c7c4a71cfac4db22afb179?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/517a4c2cd2b1c99dbc28e5d9c6e3f529534a713b89c7c4a71cfac4db22afb179?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/517a4c2cd2b1c99dbc28e5d9c6e3f529534a713b89c7c4a71cfac4db22afb179?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/517a4c2cd2b1c99dbc28e5d9c6e3f529534a713b89c7c4a71cfac4db22afb179?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/517a4c2cd2b1c99dbc28e5d9c6e3f529534a713b89c7c4a71cfac4db22afb179?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/517a4c2cd2b1c99dbc28e5d9c6e3f529534a713b89c7c4a71cfac4db22afb179?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/517a4c2cd2b1c99dbc28e5d9c6e3f529534a713b89c7c4a71cfac4db22afb179?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/517a4c2cd2b1c99dbc28e5d9c6e3f529534a713b89c7c4a71cfac4db22afb179?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/517a4c2cd2b1c99dbc28e5d9c6e3f529534a713b89c7c4a71cfac4db22afb179?placeholderIfAbsent=true&apiKey=954e1e40c83040d0846d7af99f0740b4"
+                        class="emoji-avatar" alt="" />
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ===========> Include custom JavaScript file <=========== -->
+    <script src="../js/stinges.js"></script>
+    <script src="../js/main.js"></script>
+
+    <script>
+        // تحديد الأحجام المختلفة للخطوط بناءً على الدوائر
+        const fontSizes = [10, 11, 12, 13, 14]; // يمكنك تخصيص هذه القيم حسب احتياجك
+
+        const dots = document.querySelectorAll('.slider-dot');
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                // إزالة الفئة النشطة من جميع الدوائر
+                dots.forEach(d => d.classList.remove('slider-dot-active'));
+
+                // إضافة الفئة النشطة للدائرة التي تم النقر عليها
+                dot.classList.add('slider-dot-active');
+
+                // تغيير حجم الخط بناءً على الدائرة المختارة
+                const messageText = document.querySelector('.message-text-Customize');
+                messageText.style.fontSize = `${fontSizes[index]}px`;
+
+                // التمرير للمنتصف على الدائرة المختارة
+                const container = document.querySelector('.slider-container');
+                const containerRect = container.getBoundingClientRect();
+                const dotRect = dot.getBoundingClientRect();
+
+                const offset = dotRect.left - containerRect.left - containerRect.width / 2 + dotRect.width / 2;
+
+                container.scrollBy({
+                    left: offset,
+                    behavior: 'smooth',
+                });
+            });
+        });
+
+
+        const profileContainerAvatar = document.querySelector(".profile-container-avatar");
+        const statusIndicatorAvatar = document.querySelector(".status-indicator-avatar");
+        const avatarWrapperCustomize = document.querySelector(".avatar-wrapper-Customize");
+        const bluePages = document.querySelector(".bluer-profile");
+        avatarWrapperCustomize.addEventListener("click", ()=>{
+            profileContainerAvatar.classList.add("active");
+            bluePages.classList.add("active");
+        })
+        statusIndicatorAvatar.addEventListener("click", ()=>{
+            profileContainerAvatar.classList.remove("active");
+            bluePages.classList.remove("active");
+        })
+
+
+
+    </script>
+</body>
+
+</html>
